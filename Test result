@@ -1,0 +1,17 @@
+Pokretanjem debugginga dobijamo sl pourku: Type mismatch: cannot conevert from Sting to Str100ing
+The method Run(String) in the type Calculator is not applicable for the arguments(Str100ing)
+Zbog ovih grešaka ne možemo pokrenuti fajlove.
+
+Unit test za sabiranje dva broja:
+
+
+class CalculatorTest {
+
+    @Test
+    void onePlusTwoShouldEqualThree() {
+        var calculator = new CalculatorTest();
+        assertEquals(expected:3, calculator.add(numberA:1, numberB:2));
+
+
+    }
+}
